@@ -2,6 +2,7 @@
 
 ## Quick Start
 To install, use pip:
+
 `pip install -U dictionay_navigator`
 
 ## Usage
