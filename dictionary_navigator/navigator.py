@@ -1,5 +1,16 @@
+import inspect
 
 def navigate(dictToNavigate, path, safeNavigation=True, default=None):
+    def isObject(obj):
+        if not hasattr(obj, '__dict__'):
+            return False
+        if inspect.isroutine(obj):
+            return False
+        if inspect.isclass(obj):
+            return False
+        else:
+            return True
+
     if not isinstance(dictToNavigate, dict):
         raise TypeError('dictToNavigate should be a dictionary')
 
