@@ -12,7 +12,7 @@ To install, use pip:
         'person': {
             'name': {
                 'first': 'Michael',
-                'las': 'Scott'
+                'last': 'Scott'
             },
             'height': 175.3,
             'friendsNames': ['Jim', 'Ryan', 'Todd', 'Stanley', 'Darryl'],
