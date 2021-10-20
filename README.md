@@ -3,7 +3,7 @@
 ## Quick Start
 To install, use pip:
 
-`pip install -U dictionay-navigator`
+`pip install -U dictionary-navigator`
 
 ## Usage
 ```
